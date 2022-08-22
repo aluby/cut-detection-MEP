@@ -47,4 +47,7 @@ all_films_gg %>%
     subtitle = "111-h films"
   )
 
-ggsave("plots/autoshot-results-111-h.png", width = 4, height = 8)
+ggsave("plots/autoshot-results-111-h.png", 
+       width = 10, 
+       height = 10,
+       bg = "white")
